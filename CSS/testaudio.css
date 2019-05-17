@@ -1,0 +1,28 @@
+.plyr__controls {
+  width: 100%;
+  height: 100%;
+}
+
+.plyr {
+  height: 100%;
+}
+
+.plyr--audio .plyr__controls {
+  background: #002626;
+}
+
+.plyr__menu__container {
+  background: #002626;
+}
+
+.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded="true"] {
+  background: #006837;
+}
+
+.plyr--full-ui input[type="range"] {
+  color: #006837;
+}
+
+.plyr__menu__container .plyr__control[role="menuitemradio"][aria-checked="true"]::before {
+  background: #006837;
+}

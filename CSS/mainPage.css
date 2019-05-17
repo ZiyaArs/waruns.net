@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+a:hover {
+    color: #7AC943;
+}
+
+body {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-image: linear-gradient(to top, #161716, #0E4749, #002626);
+}
+
+.user-page {
+    background: url("/Images/sideWarun.svg");
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+    height: 100%;
+}
+
+nav {
+    padding: 0px;
+    list-style: none;
+    align-self: center;
+    justify-self: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    padding: 10px 15px;
+    display: block;
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ffffff;
+    background-color: #7AC943;
+}
+
+nav .active {
+    background-color: rgb(65, 153, 1);
+}
+
+.user-page img {
+    max-height: 100vh;
+}
+
+.side-page {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 50px;
+}
+
+.tool-page {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    margin-right: 40px;
+}
+
+.workspace {
+    width: 100%;
+    grid-row: 1/5;
+    background-color: #002626;
+    overflow-y: auto;
+}
+
+aside {
+    display: inline-block;
+    grid-row: 1/5;
+    grid-column: 2;
+    background-color: #002626;
+}
+
+.profile {
+    height: 15%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.profile-pic{
+    align-self: center;
+}
+
+.profile-pic img {
+    width: 9vh;
+    height: 9vh;
+}
+
+.profile-name {
+    align-self: center;
+    margin-left: 20px;
+    font-size: 22px;
+    color: #f4f4f4;
+    font-weight: 400;
+}
+
+.profile-settings {
+    font-size: 2em;
+    justify-self: center;
+    align-self: center;
+    color: #f4f4f4;
+}
+
+.side-bar {
+    height: 82%;
+    margin-top: 8px;
+}
+
+.music {
+    grid-column: 1/3;
+}
+
+.shadow {
+    border: 1px solid #00A99D;
+    box-shadow: 0px 3px 6px rgba(0, 169, 157, 16%);
+}
+
+.music-list {
+    border: 1px solid #00A99D;
+    display: grid;
+    height: 9.7%;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+}
+
+.music-list .playButton{
+    align-self: center;
+    justify-self: center;
+}
+
+.music-list .playButton i{
+    justify-self: center;
+    align-self: center;
+    font-size: 2em;
+}
+
+.musicCover{
+    justify-self: start;
+    align-self: center;
+}
+.musicCover img{
+    width: 10vh;
+    height: 10vh;
+}
+
+.musicExp{
+    line-height: 2px;
+}
+
+.songName{
+    align-self: center;
+}
+
+.singerName{
+    align-self: center;
+}
+.dropDown{
+    font-size: 1.5em;
+    align-self: center;
+    justify-self: end;
+    margin-right: 20px;
+}
+
+.Playlists{
+    margin-left: 10px;
+}
+
+.Playlists h2{
+    margin-top: 4px;
+}
+
+.Playlists ul{
+    display: inline;
+}
+
+.Playlists ul li{
+    list-style: none;
+    margin-top: 2px;
+}
+.following{
+    margin-left: 10px;
+}
+
+.following ul{
+    display: inline;
+}
+
+.following ul li{
+    list-style: none;
+    margin-top: 2px;
+}
+
+.player{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.previousButton{
+    width: 50px;
+    height: 50px;
+    background-color: #006837;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+}
+.previousButton i {
+    justify-self: center;
+    align-self: center;
+}
+
+.playerButton{
+    width: 65px;
+    height: 65px;
+    background-color: #22FF00;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+}
+
+.playerButton i{
+    justify-self: center;
+    align-self: center;
+}
+
+.nextButton{
+    width: 50px;
+    height: 50px;
+    background-color: #006837;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+}
+
+.nextButton i{
+    justify-self: center;
+    align-self: center;
+}
+
+.music-list .playButton i{
+    font-size: 1em;
+}
+.btnStyle {
+    background:0 0;
+    border:0;
+    border-radius:3px;
+    color:inherit;
+    cursor:pointer;
+    flex-shrink:0;
+    overflow:visible;
+    padding:7px;
+    position:relative;
+    transition:all .3s ease
+}
+
+.btnStyle:hover{
+    background-color: #006837;
+}

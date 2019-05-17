@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.main-page{
+    height: 100%;
+    background-image: linear-gradient( to top, #161716, #0E4749, #002626 );
+}
+
+.main-page img{
+    width: 10em;
+    margin-top: 30px;
+}
+
+.main-page p{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-page button {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: linear.2s background;
+    border-radius: 20%;
+}
+
+.main-page button:hover{
+    background-color: #002626;
+    color: rgb(206, 130, 0);
+}
+
+#login{
+    background-color: #EFE7DA;
+}
+  
+  #signin{
+    background-color: #95C623;
+}
+
+.buttons-layout{
+    display: flex;
+    gap: 130px;
+}
+
+.wrapper{
+    /* margin: 0 50px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.wrapper p{
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.wrapper img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    justify-self: center;
+}
+
+.sign-in{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(200px, auto);
+    margin-left: 100px;
+    height: 60%;
+    margin-top: 210px;
+}
+
+.sign-in img{
+    width: 10em;
+    margin-left: 20px;
+}
+
+.login-item {
+	color: #ffff;
+	padding:25px 25px 0;
+    margin-left: 60px;
+}
+
+input {
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+.user:before {
+    content: '\f007';
+    font: 14px fontawesome;
+      color: #5b5b5b;
+}
+  
+.lock:before {
+    content: '\f023';
+    font: 14px fontawesome;
+      color: #5b5b5b;
+}
+  
+.form input[type="password"], .form input[type="text"] {
+    width: 80%;
+}
+  .form input[type="submit"]{
+    width: 88%;
+}
+  
+.form-login label,
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="submit"] {
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    color: #3A3F44;  
+}
+  
+.form-login label {
+    background-color: #222222;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+  
+.form-login input[type="text"], .form-login input[type="password"] {
+    background-color: #ffffff;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.form-login input[type="text"]:focus, .form-login input[type="text"]:hover, .form-login input[type="password"]:focus, .form-login input[type="password"]:hover {
+    background-color: #eeeeee;
+}
+.form-login input[type="submit"] {
+    background-color: #95C623;
+    color: #eee;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form-login input[type="submit"]:focus, .form-login input[type="submit"]:hover {
+    background-color: #197071;
+}
+.form-field {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+}
+  
+.hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+  
+.text-center {
+    text-align: center;
+}
+  
+.footer{
+    background: black;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  
+}
+  
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+}
