@@ -23,7 +23,7 @@ body {
 }
 
 .user-page {
-    background: url("/Images/sideWarun.svg");
+    background: url("../Images/sideWarun.svg");
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 2fr;
